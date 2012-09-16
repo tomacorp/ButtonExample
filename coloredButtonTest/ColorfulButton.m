@@ -5,6 +5,7 @@
 //  Created by William Anderson on 9/12/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
+// Adding a comment to test github integration
 
 #import "ColorfulButton.h"
 #import <QuartzCore/QuartzCore.h>
