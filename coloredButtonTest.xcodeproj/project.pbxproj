@@ -17,6 +17,7 @@
 		A460097B160191C90079822B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A460097A160191C90079822B /* ViewController.m */; };
 		A460098316019A830079822B /* ColorfulButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A460098216019A830079822B /* ColorfulButton.m */; };
 		A46009891601A2D30079822B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A46009881601A2D30079822B /* QuartzCore.framework */; };
+		E2F3F97616058B580069069A /* README in Resources */ = {isa = PBXBuildFile; fileRef = E2F3F97516058B580069069A /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		A460098116019A830079822B /* ColorfulButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorfulButton.h; sourceTree = "<group>"; };
 		A460098216019A830079822B /* ColorfulButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorfulButton.m; sourceTree = "<group>"; };
 		A46009881601A2D30079822B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E2F3F97516058B580069069A /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		A4600955160191C90079822B = {
 			isa = PBXGroup;
 			children = (
+				E2F3F97516058B580069069A /* README */,
 				A460096A160191C90079822B /* coloredButtonTest */,
 				A4600963160191C90079822B /* Frameworks */,
 				A4600961160191C90079822B /* Products */,
@@ -159,6 +162,7 @@
 			files = (
 				A460096F160191C90079822B /* InfoPlist.strings in Resources */,
 				A4600978160191C90079822B /* MainStoryboard.storyboard in Resources */,
+				E2F3F97616058B580069069A /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +288,7 @@
 				A4600980160191C90079822B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
