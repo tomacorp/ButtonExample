@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4600965160191C90079822B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4600964160191C90079822B /* UIKit.framework */; };
+		A4600967160191C90079822B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4600966160191C90079822B /* Foundation.framework */; };
+		A4600969160191C90079822B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4600968160191C90079822B /* CoreGraphics.framework */; };
+		A460096F160191C90079822B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A460096D160191C90079822B /* InfoPlist.strings */; };
+		A4600971160191C90079822B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4600970160191C90079822B /* main.m */; };
+		A4600975160191C90079822B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4600974160191C90079822B /* AppDelegate.m */; };
+		A4600978160191C90079822B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4600976160191C90079822B /* MainStoryboard.storyboard */; };
+		A460097B160191C90079822B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A460097A160191C90079822B /* ViewController.m */; };
+		A460098316019A830079822B /* ColorfulButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A460098216019A830079822B /* ColorfulButton.m */; };
+		A46009891601A2D30079822B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A46009881601A2D30079822B /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A4600960160191C90079822B /* coloredButtonTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coloredButtonTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4600964160191C90079822B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A4600966160191C90079822B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A4600968160191C90079822B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A460096C160191C90079822B /* coloredButtonTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "coloredButtonTest-Info.plist"; sourceTree = "<group>"; };
+		A460096E160191C90079822B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A4600970160191C90079822B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4600972160191C90079822B /* coloredButtonTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "coloredButtonTest-Prefix.pch"; sourceTree = "<group>"; };
+		A4600973160191C90079822B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A4600974160191C90079822B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A4600977160191C90079822B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A4600979160191C90079822B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A460097A160191C90079822B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A460098116019A830079822B /* ColorfulButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorfulButton.h; sourceTree = "<group>"; };
+		A460098216019A830079822B /* ColorfulButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorfulButton.m; sourceTree = "<group>"; };
+		A46009881601A2D30079822B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A460095D160191C90079822B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A46009891601A2D30079822B /* QuartzCore.framework in Frameworks */,
+				A4600965160191C90079822B /* UIKit.framework in Frameworks */,
+				A4600967160191C90079822B /* Foundation.framework in Frameworks */,
+				A4600969160191C90079822B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4600955160191C90079822B = {
+			isa = PBXGroup;
+			children = (
+				A460096A160191C90079822B /* coloredButtonTest */,
+				A4600963160191C90079822B /* Frameworks */,
+				A4600961160191C90079822B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4600961160191C90079822B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4600960160191C90079822B /* coloredButtonTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4600963160191C90079822B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A46009881601A2D30079822B /* QuartzCore.framework */,
+				A4600964160191C90079822B /* UIKit.framework */,
+				A4600966160191C90079822B /* Foundation.framework */,
+				A4600968160191C90079822B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A460096A160191C90079822B /* coloredButtonTest */ = {
+			isa = PBXGroup;
+			children = (
+				A4600973160191C90079822B /* AppDelegate.h */,
+				A4600974160191C90079822B /* AppDelegate.m */,
+				A4600976160191C90079822B /* MainStoryboard.storyboard */,
+				A460098116019A830079822B /* ColorfulButton.h */,
+				A460098216019A830079822B /* ColorfulButton.m */,
+				A4600979160191C90079822B /* ViewController.h */,
+				A460097A160191C90079822B /* ViewController.m */,
+				A460096B160191C90079822B /* Supporting Files */,
+			);
+			path = coloredButtonTest;
+			sourceTree = "<group>";
+		};
+		A460096B160191C90079822B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A460096C160191C90079822B /* coloredButtonTest-Info.plist */,
+				A460096D160191C90079822B /* InfoPlist.strings */,
+				A4600970160191C90079822B /* main.m */,
+				A4600972160191C90079822B /* coloredButtonTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A460095F160191C90079822B /* coloredButtonTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A460097E160191C90079822B /* Build configuration list for PBXNativeTarget "coloredButtonTest" */;
+			buildPhases = (
+				A460095C160191C90079822B /* Sources */,
+				A460095D160191C90079822B /* Frameworks */,
+				A460095E160191C90079822B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = coloredButtonTest;
+			productName = coloredButtonTest;
+			productReference = A4600960160191C90079822B /* coloredButtonTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4600957160191C90079822B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A460095A160191C90079822B /* Build configuration list for PBXProject "coloredButtonTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A4600955160191C90079822B;
+			productRefGroup = A4600961160191C90079822B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A460095F160191C90079822B /* coloredButtonTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A460095E160191C90079822B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A460096F160191C90079822B /* InfoPlist.strings in Resources */,
+				A4600978160191C90079822B /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A460095C160191C90079822B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4600971160191C90079822B /* main.m in Sources */,
+				A4600975160191C90079822B /* AppDelegate.m in Sources */,
+				A460097B160191C90079822B /* ViewController.m in Sources */,
+				A460098316019A830079822B /* ColorfulButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A460096D160191C90079822B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A460096E160191C90079822B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A4600976160191C90079822B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4600977160191C90079822B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A460097C160191C90079822B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A460097D160191C90079822B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A460097F160191C90079822B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "coloredButtonTest/coloredButtonTest-Prefix.pch";
+				INFOPLIST_FILE = "coloredButtonTest/coloredButtonTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A4600980160191C90079822B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "coloredButtonTest/coloredButtonTest-Prefix.pch";
+				INFOPLIST_FILE = "coloredButtonTest/coloredButtonTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A460095A160191C90079822B /* Build configuration list for PBXProject "coloredButtonTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A460097C160191C90079822B /* Debug */,
+				A460097D160191C90079822B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A460097E160191C90079822B /* Build configuration list for PBXNativeTarget "coloredButtonTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A460097F160191C90079822B /* Debug */,
+				A4600980160191C90079822B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4600957160191C90079822B /* Project object */;
+}
