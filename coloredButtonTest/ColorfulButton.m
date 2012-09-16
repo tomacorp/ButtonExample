@@ -6,6 +6,7 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 // Adding a comment to test github integration
+// Added another comment
 
 
 #import "ColorfulButton.h"
